@@ -1,0 +1,2 @@
+export const dbError = "Unable to reach database.  Please check your internet connection or refresh.";
+export const dbError_cloned = "THIS WEBSITE WILL NOT WORK!\n\nIf you're seeing this, you're likely viewing this website cloned from my Github.  The clone will not work as I've removed my Firebase ID and other identifying information from my Github due to it being in public view.\n\nTo view this website properly, please go to my portfolio at www.ekleung123.com."

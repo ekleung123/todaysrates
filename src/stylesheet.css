@@ -1,0 +1,254 @@
+/* All page */
+
+.maincontainer {
+  width: 80%;
+  margin: auto;
+  padding: 25px;
+  margin-top: 10px;
+}
+
+.activePage {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+/* Admin page */
+
+.tableLabel {
+  font-weight: bold;
+  font-family: "Open Sans";
+  font-size: 19px;
+  color: black;
+}
+
+.tableLabel_faded {
+  font-weight: bold;
+  font-family: "Open Sans";
+  font-size: 19px;
+  color: DarkGrey;
+}
+
+.tableTopRow {
+  background-color: #eabb55 !important;
+}
+
+.checkbox {
+  height: 15px;
+  width: 15px;
+  accent-color: #DEB151;
+}
+
+.textField {
+  font-family: "Verdana"; 
+  border-radius: 5px;
+  border-style: solid;
+  border-color: orange;
+  border-Width: 1px;
+  padding-Left: 7px;
+}
+
+.textField_faded {
+  font-family: "Verdana"; 
+  border-radius: 5px;
+  border-style: solid;
+  border-color: orange;
+  border-Width: 1px;
+  padding-Left: 7px;
+  color: darkgray;
+}
+
+@media only screen and (max-width: 1300px) {
+  .textField {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .textField {
+    width: 100px;
+  }
+}
+
+.formMessage {
+  background-color: red !important;
+}
+
+.formInstructions {
+  margin-top: 16px;
+  font-family: "Arial";
+  font-size: 15px;
+  background-color: AntiqueWhite;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.formAlert_red {
+  color: red;
+  font-family: "Roboto Mono";
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.formAlert_black {
+  color: black;
+  font-family: "Roboto Mono";
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.alertMsg {
+  margin-top: 3px;
+  text-align: center;
+}
+
+.formImg {
+  height: 30px;
+  width: 30px;
+  margin-right: 8px;
+}
+
+/* Store page */
+
+.storetablehead {
+  font-family: "Calibri";
+  font-size: 42px;
+  font-weight: bold;
+  background-color: midnightblue;
+}
+
+.store {
+  border-spacing: 20px;
+  background-color: red;
+}
+
+.store td {
+  border: 7px solid #a6b9b9;
+  background-color: midnightblue;
+  font-size: 30px;
+  color: white;
+}
+
+.storeBackground {
+  background-Color: #a6b9b9;
+}
+
+.countryCol {
+  width: 60%;
+  font-weight: bold;
+}
+
+.flagCircle {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.storeTableHeader {
+	background-color: LightSlateGrey !important; 
+	color: black !important;
+	font-size: 30px !important;
+  font-weight: bold !important;
+  vertical-align: bottom !important;
+  height: 100% !important;
+  padding: 0px !important;  
+
+}
+
+.storeHead {
+  font-size: 60px;
+  color: black;
+  font-weight: bold;
+}
+
+.logo {
+  height: 130px;
+  width: 130px;
+  margin-right: 5px;
+}
+
+/* Web page */
+
+.errorpg {
+  text-align: center;
+}
+
+.logo_web {
+  height: 70px;
+  width: 70px;
+  margin-left: 10px;
+}
+
+.web_header {
+  font-size: 42px;
+  font-family: "Kanit";
+  margin: auto;
+  padding: 10px;
+}
+
+.calc_buy_section {
+  margin-top: 10px;
+  background-color: #f9e79f;
+  padding: 12px 15px 15px 15px;
+  border-radius: 10px;
+  font-family: "Open Sans";
+}
+
+.calc_sell_section {
+  margin-top: 10px;
+  background-color: #abebc6;
+  padding: 12px 15px 15px 15px;
+  border-radius:10px;
+  font-family: "Open Sans";
+}
+
+.calc_button_section {
+  margin-top: 10px;
+}
+
+.buyMsg {
+  color: red;
+  margin-bottom: -3px;
+}
+
+.calcReply {
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  line-height: 1.2;
+  display: flex;
+  font-family: "Arial";
+  font-size: 16px;
+}
+
+h3 {
+  line-height: 1;
+  margin-bottom: 20px;
+  font-family: "Open Sans";
+}
+
+.preserve-white-space {
+  white-space: pre;
+}
+
+.calcReplyIcon {
+  height: 35px;
+  width: 35px;
+  margin-right: 5px;
+}
+
+.url {
+  background-color: white;
+  font-size: 18px;
+  border: 2px solid black;
+  margin: 3px 0px;
+  border-radius: 5px;
+}
+
+.navIcon {
+  width: 40px;
+  height: 40px;
+}
